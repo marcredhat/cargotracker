@@ -27,6 +27,8 @@
             <url>http://repository.primefaces.org</url>
         </repository>
     </repositories>
+         
+         
 
     <dependencyManagement>
         <!-- Arquillian BOM used to reduce collision between testing dependecies. -->
@@ -73,16 +75,16 @@
         </dependency>
 
         <!-- PrimeFaces dependencies -->
+         <dependency>
+                  <groupId>org.primefaces</groupId>
+                  <artifactId>primefaces</artifactId>
+                  <version>8.0.RC3</version>
+         </dependency>
         <dependency>
-            <groupId>org.primefaces</groupId>
-            <artifactId>primefaces</artifactId>
-            <version>5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.primefaces.themes</groupId>
-            <artifactId>ui-lightness</artifactId>
-            <version>1.0.10</version>
-        </dependency>
+                  <groupId>org.primefaces.themes</groupId>
+                  <artifactId>ui-lightness</artifactId>
+                   <version>1.0.10</version>
+         </dependency>
 
         <!-- Test dependendencies -->
         <dependency>

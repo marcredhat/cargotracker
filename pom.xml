@@ -74,6 +74,16 @@
     <artifactId>wildfly-ejb-client-bom</artifactId>
     <version>10.1.0.Final</version>
     <type>pom</type>
+                    
+                      
+         <!-- Marc added Derby  -->  
+              <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>10.13.1.1</version>
+            <scope>test</scope>
+        </dependency>        
+                      
 </dependency>
         <!-- Java EE API -->
         <dependency>

@@ -18,7 +18,7 @@
         <netbeans.hint.deploy.server>gfv3ee6</netbeans.hint.deploy.server>
         <webapp.databaseTempDir>/tmp</webapp.databaseTempDir>
         <webapp.graphTraversalUrl>http://localhost:8080/cargo-tracker/rest/graph-traversal/shortest-path</webapp.graphTraversalUrl>
-        <version.jboss.bom>10.0.0.Final</version.jboss.bom>     
+        <version.jboss.bom>10.1.0.Final</version.jboss.bom>     
     </properties>
 
     <!-- We need to use the PrimeFaces repository -->
@@ -48,7 +48,7 @@
             <dependency>
                 <groupId>org.wildfly.bom</groupId>
                 <artifactId>wildfly-javaee7-with-tools</artifactId>
-                <version>${version.jboss.bom}</version>
+                <version>10.1.0.Final</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

@@ -67,11 +67,14 @@
              
         <!-- Marc added wildfly-ejb-client-bom to fix https://access.redhat.com/solutions/2536091  -->    
         <!-- see also https://www.baeldung.com/wildfly-ejb-jndi  -->      
-        <dependency>
-                  <groupId>org.wildfly</groupId>
-                  <artifactId>wildfly-ejb-client-bom</artifactId>
-                   <version>10.1.0.Final</version>
-         </dependency>     
+           
+             
+             <dependency>
+    <groupId>org.wildfly</groupId>
+    <artifactId>wildfly-ejb-client-bom</artifactId>
+    <version>10.1.0.Final</version>
+    <type>pom</type>
+</dependency>
         <!-- Java EE API -->
         <dependency>
             <groupId>javax</groupId>
